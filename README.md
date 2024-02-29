@@ -1,6 +1,6 @@
 # MyReactFramework-WithTailwind
 
-Template pessoal para aplicações em React, utilizando `Vite.js` (toolchain) e Tailwind/Radix UI Themes (UI library)
+Template pessoal para aplicações em React.js, utilizando `Vite.js` (toolchain) e Tailwind/Radix UI Themes (UI library)
 
 ## Libs utilizadas
 
