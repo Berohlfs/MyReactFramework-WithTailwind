@@ -2,6 +2,8 @@
 
 Template pessoal para aplicações em React.js, utilizando `Vite.js` (toolchain) e Tailwind/Radix UI Themes (UI library)
 
+[Acessar demo!](https://mrf-tailwind.bernardorohlfs.site/)
+
 ## Libs utilizadas
 
 * `tailwindcss`, `postcss` e `autoprefixer` para estilização avançada.
