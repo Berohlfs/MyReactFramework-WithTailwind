@@ -16,7 +16,7 @@ Template pessoal para aplicações em React.js, utilizando `Vite.js` (toolchain)
 * `zod` e `react-hook-form` para validação de formulário.
 * `js-cookie` para gerenciamento de cookies.
 
-## Extensões do VS Code recomendadas
+## Extensões do VS Code utilizadas
 
 * `Color Highlight`.
 * `Material Icon Theme`.
