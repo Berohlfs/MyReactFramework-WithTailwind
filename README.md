@@ -1,23 +1,32 @@
-# React-Vite-Tailwind-RadixUI-Template
+# MyReactFramework-WithTailwind
 
 Template pessoal para aplicações em React, utilizando `Vite.js` (toolchain) e Tailwind/Radix UI Themes (UI library)
 
 ## Libs utilizadas
 
-* `react-router-dom` para roteamento.
+* `tailwindcss`, `postcss` e `autoprefixer` para estilização avançada.
+* `@radix-ui/themes` como biblioteca UI.
+* `@radix-ui/react-icons` para ícones.
+* `postcss-import` para utilização de 'CSS imports'.
 * `axios` para requisições HTTP.
+* `next-themes` para manipulação de temas.
+* `react-router-dom` para roteamento.
 * `sonner` para notificações.
-* `react-imask` para máscaras de input.
-* `react-hook-form` e `zod` para validação de formulário.
-* `js-cookie` para gerenciar alguns dos cookies da aplicação.
-* `dayjs` para manipulação de datas.
-* `prettier` para formatação de código.
-
-* `tailwindcss`
-* `postcss` 
-* `autoprefixer`
+* `react-imask` para aplicação de máscaras de input.
+* `zod` e `react-hook-form` para validação de formulário.
+* `js-cookie` para gerenciamento de cookies.
 
 ## Extensões do VS Code recomendadas
 
 * `Color Highlight`.
 * `Material Icon Theme`.
+* `Tailwind CSS Intellisense`.
+* `Tailwind Docs`.
+* `Tailwind Fold`.
+
+
+
+
+
+
+
