@@ -25,10 +25,21 @@ Template pessoal para aplicações em React.js, utilizando `Vite.js` (toolchain)
 * `Tailwind CSS Intellisense`.
 * `Tailwind Docs`.
 * `Tailwind Fold`.
+  
+## Arquivo `.htaccess`
 
+Um arquivo `.htaccess` é necessário para que a aplicação funcione corretamente após ser hospedada. Adicione o arquivo à pasta da aplicação no servidor FTP, com o seguinte conteúdo:
 
+```
+<IfModule mod_rewrite.c>
 
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
 
-
-
-
+</IfModule>
+```
